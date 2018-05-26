@@ -24,13 +24,7 @@ header{
     width:100%;
     margin:auto;
     display:flex;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    justify-content: space-evenly;
-    -webkit-flex-direction: space-evenly;
-    -ms-flex-direction: space-evenly;
+    justify-content: space-around;
 
 }
 /* Main styles */
