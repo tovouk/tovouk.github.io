@@ -1,3 +1,4 @@
+
 /* Remove any margin or padding for the document */
 html{
     margin:0;
@@ -23,7 +24,14 @@ header{
     width:100%;
     margin:auto;
     display:flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     justify-content: space-evenly;
+    -webkit-flex-direction: space-evenly;
+    -ms-flex-direction: space-evenly;
+
 }
 /* Main styles */
 main{
